@@ -32,17 +32,20 @@ The program was developed with both TDD (test -> fail -> code -> test -> pass ->
 BEST PRACTICES
 
 1) USE OF NAMING CONVENTIONS
-    *explanatory- my methods and class names reveal their intention and purpose. So if another programmer were to edit my or an audience wwere to look at it, it'll be easy for 
+   
+   *explanatory- my methods and class names reveal their intention and purpose. So if another programmer were to edit my or an audience wwere to look at it, it'll be easy for 
                   them to understand
     *has meaningful distinctions- my variables had meaningful distinctions (i did not use a, a1, a2 as my variables name)
     *I applied the PascalNaming Convention for classes and camelNamingConvention for methods.
     *my classs names and methods were easy to pronounce
     
 2) ORDERING CLASS MEMBERS BY SCOPE
+    
     *I organizes them from most restrictice(private) to less restrictive(public) and I separated them by blank line
     
 3) Documentations
-    *I wrote comments in my program
+   
+   *I wrote comments in my program
 
 
 
