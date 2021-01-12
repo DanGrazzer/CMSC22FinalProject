@@ -1,0 +1,8 @@
+Q9: Which of the following are true?
+
+(a) Two arrays with the same content are equal
+(b) If you call remove(0) using an empty ArrayList object, it will run succesfully
+(c) Both A and B are correct
+(d) If you call remove(0) using an empty ArrayList object, it will compile successfully
+
+D

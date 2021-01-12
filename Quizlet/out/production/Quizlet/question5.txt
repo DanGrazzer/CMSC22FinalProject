@@ -1,0 +1,8 @@
+Q5: Which of the following are true statements?
+
+(a) Java code compiled on Windows can run on Linux
+(b) Java allows operator overloading
+(c) Java is a procedural language
+(d) Java is a functional programming language
+
+D

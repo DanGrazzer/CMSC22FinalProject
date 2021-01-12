@@ -1,0 +1,22 @@
+Q10:Given the code fragment below, what is the result?
++-------------------------------------------------------+
++public static void main(String[] args) {               +
++     StringBuilder sb = new StringBuilder(\"Java\");   +
++     String s = \"Java\";                              +
++                                                       +
++     if (sb.toString().equals(s.toString())){          +
++        System.out.println(\"Match 1\");               +
++    }else if (sb.equals(s)){                           +
++        System.out.println(\"Match 2\");               +
++    } else{                                            +
++        System.out.println(\"No Match\");              +
++    }                                                  +
++}                                                      +
++-------------------------------------------------------+
+
+(a) Match 1
+(b) Match 2
+(c) No Match
+(d) A NullPointerException is thrown at runtime
+
+A

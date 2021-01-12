@@ -1,0 +1,8 @@
+Q7: Which statements are true for both abstract classes and interfaces?
+
+(a) All methods within them are assumed to be abstract
+(b) Neither can be instantiated directly
+(c) Both inheret java.lang.Object
+(d) Both can contain default methods
+
+B

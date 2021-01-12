@@ -1,0 +1,14 @@
+Q4: Given the code fragment below, what is the result?
++------------------------------------------------------------------------------------------+
++public static void main(String[] args) {                                                  +
++    String date = LocalDate.parse(\"2014-05-04\").format(DateTimeFormatter.ISO_DATE_TIME);+
++    System.out.println(date);                                                             +
++}                                                                                         +
++------------------------------------------------------------------------------------------+
+
+(a) May 04, 2014T00:00:00.000
+(b) 2014-05-04T00:00: 00.000
+(c) 5/4/14T00:00:00.000
+(d) An exception is thrown at runtime
+
+B

@@ -1,0 +1,8 @@
+Q3: What will happen if you add the statement System.out.print(5/0) to a working main method?
+
+(a) It will not compile
+(b) It will not run
+(c) It will throw an ArithmeticException
+(d) None of the above
+
+A

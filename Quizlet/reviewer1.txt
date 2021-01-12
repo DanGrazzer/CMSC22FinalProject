@@ -1,0 +1,62 @@
+Java classes have two primary elements: methods, often called functions or procedures in
+other languages, and fi elds, more generally known as variables. Together these are called the
+members of the class. Variables hold the state of the program, and methods operate on that
+state.
+
+Most of the time, each Java class is defined in its own *.java file. It is usually public,
+which means any code can call it. Interestingly, Java does not require that the class be
+public. For example, this class is just fine:
+1: class Animal {
+2: 	String name;
+3: }
+
+Java comes with thousands of built-in classes, and there are countless more from developers
+like you. With all those classes, Java needs a way to organize them. It handles this in a way
+similar to a file cabinet. You put all your pieces of paper in folders. Java puts classes in
+packages. These are logical groupings for classes.
+We wouldn't put you in front of a file cabinet and tell you to find a specific paper.
+Instead, we'd tell you which folder to look in. Java works the same way. It needs you to tell
+it which packages to look in to find code.
+Suppose you try to compile this code:
+--------------------------------------------------------------
+public class ImportExample {
+	public static void main(String[] args) {
+		Random r = new Random(); // DOES NOT COMPILE
+		System.out.println(r.nextInt(10));
+	}
+}
+--------------------------------------------------------------
+The Java compiler helpfully gives you an error that looks like this:
+---------------------------------------
+--Random cannot be resolved to a type--
+---------------------------------------
+This error could mean you made a typo in the name of the class. You double-check and
+discover that you didn't. The other cause of this error is omitting a needed import statement.
+Import statements tell Java which packages to look in for classes. Since you didn't tell
+Java where to look for Random, it has no clue.
+
+The logical operators, (&), (|), and (^), may be applied to both numeric and boolean data
+types. When they're applied to boolean data types, they’re referred to as logical operators.
+Alternatively, when they're applied to numeric data types, they’re referred to as bitwise
+operators, as they perform bitwise comparisons of the bits that compose the number.
+
+The short-circuit operators are nearly identical to the logical operators,
+& and |, respectively, except that the right-hand side of the expression may never be
+evaluated if the final result can be determined by the left-hand side of the expression. For
+example, consider the following statement:
+boolean x = true || (y < 4);
+
+A more common example of where short-circuit operators are used is checking for null
+objects before performing an operation, such as this:
+--------------------------------------
+1: if(x != null && x.getValue() < 5) {
+2: 	// Do something
+3: }
+--------------------------------------
+
+The indexOf() method returns the index (the position) of the first occurrence of a specified 
+text in a string (including whitespace):
+----------------------------------------------------------
+1: String txt = "Please locate where 'locate' occurs!";
+2: System.out.println(txt.indexOf("locate")); // Outputs 7
+----------------------------------------------------------
