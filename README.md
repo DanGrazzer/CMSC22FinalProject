@@ -4,6 +4,7 @@ Files for CMSC 22 Final Project
 =================================
 
 INFO
+
 AUTHOR: Danny D. Honorio, Jr.
 
 MY HOBBY: Playing quiz games
