@@ -11,19 +11,14 @@ MY HOBBY: Playing quiz games
 
 PROGRAM NAME: JAVA QUIZLET
 
-BRIEF DESCRIPTION: This is a simple application that allows the user to review for the OCA JAVA SE8 Programmer I Certification Exam
-                   This program has two features: first, it lets the user review java concepts before taking the quiz.
-                   Second, is it has a multiple choice quiz that prepares the user for the certification exam
+BRIEF DESCRIPTION: This is a simple application that allows the user to review for the OCA JAVA SE8 Programmer I Certification Exam. This program has two features: first, it lets the user review java concepts before taking the quiz. Second, is it has a multiple choice quiz that prepares the user for the certification exam
 
 =================================
 
 DESIGN PATTERNS
 CREATIONAL PATTERN: SINGLETON -The program only created or allowed one instance of a class.
 
-STRUCTURAL PATTERN: DECORATOR - In my program, I applied the decorator design patten in Question interface. I then added functionalities to my Question interface using 
-                                basicQuestion and QuestionDecorator (classes which implements the said interface) and QuestionAttributes(extends QuestionDecorator).
-                                To simply put it, the Question interface is like my Christmas Tree. I then decorated it using basicQuestion, QuestionDecorator, and
-                                Question Attributes class.
+STRUCTURAL PATTERN: DECORATOR - In my program, I applied the decorator design patten in Question interface. I then added functionalities to my Question interface using basicQuestion and QuestionDecorator (classes which implements the said interface) and QuestionAttributes(extends QuestionDecorator). To simply put it, the Question interface is like my Christmas Tree. I then decorated it using basicQuestion, QuestionDecorator, and Question Attributes class.
                            
 BEHAVIORAL PATTERN: ITERATOR -The program used an Iterator Design pattern by organizing the questions, options, and answers in an array.
 
