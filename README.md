@@ -25,7 +25,7 @@ BEHAVIORAL PATTERN: ITERATOR -The program used an Iterator Design pattern by org
 =================================
 
 SOFTWARE DEVELOPMENT PROCESS
-The program was developed with both TDD (test -> fail -> code -> test -> pass -> refactor) and Incremental Development (write code -> run with test variables -> then writemore code). 
+The program was developed with both TDD (test -> fail -> code -> test -> pass -> refactor) and Incremental Development (write code -> run with test variables -> then writemore code). Unlike other TDD that uses JUnit, I used manual testing by creating manual test cases.
 
 =================================
 
